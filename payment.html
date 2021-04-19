@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<title>DONATE</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+       body {background:"images/back2.jpg" no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-moz-background-size:cover;background-size: cover,Arial, Helvetica , sans-serif;}
+    .container {
+      position: relative;
+      width: 50%;
+    }
+
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align:center;
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #acf13b;
+      color: rgb(20, 1, 1);
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+    h1 {
+      background-size: 50%;
+        text-align:center;
+        text-transform: uppercase;
+        color: #1b2002;
+        font-family:Algerian;
+        font-style: oblique;
+        font-weight:"bolder";
+        
+      }
+
+    p {
+       text-indent: 50px;
+       text-align: center;
+       letter-spacing: 0px;
+       font-style:bold;
+       font-style:italic;
+       font-weight: bolder;
+       
+      }
+
+  </style>
+  </head>
+<body background="images/back2.jpg" >
+  <div>
+   ><h1>Donate Generously!</h1>
+        <p> <strong>
+          A small amount can provide a bright future to a child.Help the needy.
+          child is special.Every child needs love.
+          a parent does not only constitue a huge 
+          and shock to a tender child but it can  
+           mean that the child looses access to basic 
+           like clothing and education.This is why
+           responsibility of care for the orphan falls on all of us. 
+           Your contribution has the power to uplift children in 
+         situations.Show some love by donating generously!
+          
+        </strong>
+        </p>
+ </div>
+<!-- Donate now button -->
+    <form>
+       <br>
+       <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H0JxWsJ11Xj1ns" async> </script> </form>
+   </form>
+   <div class= "container">
+    <img src="images/payment.jpg" alt="Image not found" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><i>"We care for orphans not because we are rescuers,but because we are the rescued."</i></div>
+    </div>
+  </div>
+
+</body>
+</html>

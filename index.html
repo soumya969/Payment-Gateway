@@ -1,0 +1,251 @@
+<html>
+<title>BAL VIKAS ORPHANAGE</title>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+        
+        body {background:"images/back3.jpg" no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-moz-background-size:cover;background-size: cover,Arial, Helvetica , sans-serif;}
+
+        .navbar 
+      {
+        width: 100%;
+        background-color: #b32300;
+        overflow: auto;
+       }
+        .navbar a 
+       {
+        float: left;
+        padding: 12px;
+        color:#000000;
+        text-decoration: none;
+        font-size: 17px;
+        font-family:Algerian;
+        }
+         .navbar a:hover 
+        {
+          background-color:#ffffcc;
+         }
+          .active 
+         {
+           background-color: #808080;
+          }
+          @media screen and (max-width: 500px) 
+          {
+            .navbar a 
+            {
+               float: none;
+               display: block;
+             }
+           }
+     
+
+         * {box-sizing: border-box;}
+         body {font-family: Verdana, sans-serif;}
+         .mySlides {display: none;}
+         img {vertical-align: middle;}
+
+          /* Slideshow container */
+           .slideshow-container 
+         {
+           max-width: 1000px;
+           position: relative;
+           margin: auto;
+          }
+
+         /* Caption text */
+          .text
+         {
+           background-color: #f2f2f2;
+          color: rgb(14, 13, 13);
+          font-size: 15px;
+          font-family:Algerian;
+          font-style:Italic;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+         }
+
+          /* Number text (1/3 etc) */
+          .numbertext 
+         {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+         }
+
+          /* The dots/bullets/indicators */
+          .dot 
+          {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+          }
+
+         .active 
+          {
+          background-color: #717171;
+           }
+
+          /* Fading animation */
+           .fade 
+          {
+             -webkit-animation-name: fade;
+             -webkit-animation-duration: 3s;
+             animation-name: fade;
+             animation-duration: 1.5s;
+          }
+
+           @-webkit-keyframes fade
+           {
+           from {opacity: .4} 
+           to {opacity: 1}
+           }
+
+           @keyframes fade 
+           {
+           from {opacity: .4} 
+           to {opacity: 1}
+           }
+
+           /* On smaller screens, decrease text size */
+           @media only screen and (max-width: 300px)
+           {
+           .text {font-size: 11px}
+           }
+           
+        .block 
+          {
+           display: block;
+           width: 20%;
+           border:solid;
+           border-radius: 10px;
+           border-color:#b32300;
+           background-color:#ffcccc;
+           color:black;
+           padding: 14px 28px;
+           font-size: 16px;
+           cursor: pointer;
+           text-align: center;
+          }
+
+         .block:hover 
+         {
+            background-color: #ffffb3;
+            color: black;
+         }
+       
+         h1 {
+             text-align: center;
+             text-transform: uppercase;
+             color: #cc2900;
+             font-family:Algerian;
+            }
+
+         p {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+            font-style:bold;
+           }
+
+         a {
+            text-decoration: none;
+            color:white;
+           }
+           .footer {
+            position:initial;
+            bottom:0;
+            left: 0;
+            right:0;
+            background-color:rgb(1, 32, 1);
+            color:lightgoldenrodyellow;
+            text-align:right;
+            font-size:inherit;
+           }
+
+       
+</style>
+</head>
+
+ 
+<body background="images/back3.jpg">
+      
+      <div class="navbar">
+               <a class="active" href="#"><i class="fa fa-fw fa-child"></i>Bal Vikas Orphanage</a> 
+               <a href="contact.html" target="_self"><i class="fa fa-fw fa-phone"></i> Contact us</a> 
+      </div>
+
+
+     <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                       <div class="numbertext">1 / 2</div>
+                       <center><img src="images/orphan2.jpg" style="width: 70%"></center>
+                       <div class="text">Orphans are the only ones who get to choose their fathers, and they love them twice as much.</div>
+                </div>
+
+                <div class="mySlides fade">
+                        <div class="numbertext">2 / 2</div>
+                        <center><img src="images/orphan3.jpg" style="width:70%"></center>
+                        <div class="text">“Happiness doesn’t result from what we get, but from what we give."</div>
+                </div>
+
+      </div>
+<br>
+
+      <div style="text-align:center">
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+      </div>
+
+      <script>
+                var slideIndex = 0;
+                showSlides();
+
+               function showSlides() 
+               {
+                   var i;
+                   var slides = document.getElementsByClassName("mySlides");
+                   for (i = 0; i < slides.length; i++)
+                  {
+                        slides[i].style.display = "none";
+                   }
+                   slideIndex++;
+                   if (slideIndex > slides.length) 
+                    {slideIndex = 1}
+                     slides[slideIndex-1].style.display = "block";
+                     setTimeout(showSlides, 6000); // Change image every 6 seconds
+                }
+       </script>
+<br><br>
+       
+       <div>
+          <h1>Bal Vikas Orphanage</h1>
+              <p><strong>Vikas Orphanage aims to provide home to thousands of orphans.We provide all the necessary facilities such as food,clothing,education free of cost.
+                We focus more towards the all round development of the child and also provide them home like environment where they can dream big.We look after both the physical and 
+                mental health of the children and try to provide the best facilities to them.So,do not miss this opportunity to become a part of our family and bring 
+                smiles on the faces of these bright futures of our nation.</strong>
+              </p>
+       </div>
+<br><br>
+       <a href="payment.html" target="_blank">
+       <button class="block">Start to donate now!</button></a>
+       <div class="footer">
+         <p>Copyright 2021 by Bal Vikas.All Rights Reserved.
+         Mobile-66(0)87364985736
+         >info@balvikas.org</p>
+       </div>
+       
+       
+      
+</body>
+</html> 
